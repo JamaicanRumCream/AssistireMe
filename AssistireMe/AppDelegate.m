@@ -15,4 +15,7 @@
     // Insert code here to initialize your application
 }
 
+- (IBAction)changeLabel:(id)sender {
+    [_theLabel setStringValue:@"Pushed. bonk"];
+}
 @end

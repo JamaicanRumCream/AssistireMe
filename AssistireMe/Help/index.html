@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="robots" content="noindex" />
+        <title>AssistireMe Main Help Index Page</title>
+        <meta name="AppleTitle" content="AssistireMe Main Index" />
+        		<!-- must match to Info.plist property "Help Book Identifier" -->
+        		<!-- will show up in the title bar in help viewer window -->
+                <!-- info.plist "Help book directory name" will be name of main help folder, in this case it's "Help" -->
+        <meta name="AppleIcon" content="images/icon.png" />
+    </head>
+    
+    <body>
+    <p>This is the title page of help for AssistireMe!</p>
+    <p>How to use it:</p>
+    <ul>
+    	<li>Main Application</li>
+    	<li>Pressing Buttons</li>
+    </ul>
+    <p><a href="Resources/push-button.html">How to push a button</a></p>
+    
+    <p><a href="http://www.apple.com">This link should open in your default browser (Apple.com)</a></p>
+    
+    <p><a href="http://www.apple.com/ipad" target="_helpViewer">This link should open in Help Viewer (Apple.com/iPad)</a></p>
+    
+    </body>
+</html>
+
+
+
+<!--
+To run help indexer app, go to terminal
+type: hiutil -Caf [path to your help folder and then name of the index file, such as /project/Help/Help.helpindex] [folder to index]
+
+for example:
+hiutil -Caf /Users/chris.paveglio/Chris\ Stuff/Working\ Code/AssistireMe/AssistireMe/Help/Help.helpindex /Users/chris.paveglio/Chris\ Stuff/Working\ Code/AssistireMe/AssistireMe/Help
+
+the INDEX or main html file must be in the ROOT of the HELP folder
+other pages can be inside of the Resources folder
+link to them with the usual html path methods /folder or ../upfolder etc
+-->
