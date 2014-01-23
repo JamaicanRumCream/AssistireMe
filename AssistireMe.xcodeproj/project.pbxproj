@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA75CD60189195260028ED1B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA75CD5F189195260028ED1B /* Cocoa.framework */; };
+		EA75CD6A189195260028ED1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA75CD68189195260028ED1B /* InfoPlist.strings */; };
+		EA75CD6C189195260028ED1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA75CD6B189195260028ED1B /* main.m */; };
+		EA75CD70189195260028ED1B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EA75CD6E189195260028ED1B /* Credits.rtf */; };
+		EA75CD73189195260028ED1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA75CD72189195260028ED1B /* AppDelegate.m */; };
+		EA75CD76189195260028ED1B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA75CD74189195260028ED1B /* MainMenu.xib */; };
+		EA75CD78189195260028ED1B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA75CD77189195260028ED1B /* Images.xcassets */; };
+		EA75CD7F189195260028ED1B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA75CD7E189195260028ED1B /* XCTest.framework */; };
+		EA75CD80189195260028ED1B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA75CD5F189195260028ED1B /* Cocoa.framework */; };
+		EA75CD88189195260028ED1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA75CD86189195260028ED1B /* InfoPlist.strings */; };
+		EA75CD8A189195260028ED1B /* AssistireMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA75CD89189195260028ED1B /* AssistireMeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA75CD81189195260028ED1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA75CD54189195260028ED1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA75CD5B189195260028ED1B;
+			remoteInfo = AssistireMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA75CD5C189195260028ED1B /* AssistireMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssistireMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA75CD5F189195260028ED1B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EA75CD62189195260028ED1B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EA75CD63189195260028ED1B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EA75CD64189195260028ED1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA75CD67189195260028ED1B /* AssistireMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AssistireMe-Info.plist"; sourceTree = "<group>"; };
+		EA75CD69189195260028ED1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA75CD6B189195260028ED1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA75CD6D189195260028ED1B /* AssistireMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AssistireMe-Prefix.pch"; sourceTree = "<group>"; };
+		EA75CD6F189195260028ED1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EA75CD71189195260028ED1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA75CD72189195260028ED1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA75CD75189195260028ED1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EA75CD77189195260028ED1B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA75CD7D189195260028ED1B /* AssistireMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssistireMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA75CD7E189195260028ED1B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EA75CD85189195260028ED1B /* AssistireMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AssistireMeTests-Info.plist"; sourceTree = "<group>"; };
+		EA75CD87189195260028ED1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA75CD89189195260028ED1B /* AssistireMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssistireMeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA75CD59189195260028ED1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA75CD60189195260028ED1B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA75CD7A189195260028ED1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA75CD80189195260028ED1B /* Cocoa.framework in Frameworks */,
+				EA75CD7F189195260028ED1B /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA75CD53189195260028ED1B = {
+			isa = PBXGroup;
+			children = (
+				EA75CD65189195260028ED1B /* AssistireMe */,
+				EA75CD83189195260028ED1B /* AssistireMeTests */,
+				EA75CD5E189195260028ED1B /* Frameworks */,
+				EA75CD5D189195260028ED1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA75CD5D189195260028ED1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA75CD5C189195260028ED1B /* AssistireMe.app */,
+				EA75CD7D189195260028ED1B /* AssistireMeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA75CD5E189195260028ED1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA75CD5F189195260028ED1B /* Cocoa.framework */,
+				EA75CD7E189195260028ED1B /* XCTest.framework */,
+				EA75CD61189195260028ED1B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA75CD61189195260028ED1B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA75CD62189195260028ED1B /* AppKit.framework */,
+				EA75CD63189195260028ED1B /* CoreData.framework */,
+				EA75CD64189195260028ED1B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EA75CD65189195260028ED1B /* AssistireMe */ = {
+			isa = PBXGroup;
+			children = (
+				EA75CD71189195260028ED1B /* AppDelegate.h */,
+				EA75CD72189195260028ED1B /* AppDelegate.m */,
+				EA75CD74189195260028ED1B /* MainMenu.xib */,
+				EA75CD77189195260028ED1B /* Images.xcassets */,
+				EA75CD66189195260028ED1B /* Supporting Files */,
+			);
+			path = AssistireMe;
+			sourceTree = "<group>";
+		};
+		EA75CD66189195260028ED1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA75CD67189195260028ED1B /* AssistireMe-Info.plist */,
+				EA75CD68189195260028ED1B /* InfoPlist.strings */,
+				EA75CD6B189195260028ED1B /* main.m */,
+				EA75CD6D189195260028ED1B /* AssistireMe-Prefix.pch */,
+				EA75CD6E189195260028ED1B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA75CD83189195260028ED1B /* AssistireMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA75CD89189195260028ED1B /* AssistireMeTests.m */,
+				EA75CD84189195260028ED1B /* Supporting Files */,
+			);
+			path = AssistireMeTests;
+			sourceTree = "<group>";
+		};
+		EA75CD84189195260028ED1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA75CD85189195260028ED1B /* AssistireMeTests-Info.plist */,
+				EA75CD86189195260028ED1B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA75CD5B189195260028ED1B /* AssistireMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA75CD8D189195260028ED1B /* Build configuration list for PBXNativeTarget "AssistireMe" */;
+			buildPhases = (
+				EA75CD58189195260028ED1B /* Sources */,
+				EA75CD59189195260028ED1B /* Frameworks */,
+				EA75CD5A189195260028ED1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AssistireMe;
+			productName = AssistireMe;
+			productReference = EA75CD5C189195260028ED1B /* AssistireMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA75CD7C189195260028ED1B /* AssistireMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA75CD90189195260028ED1B /* Build configuration list for PBXNativeTarget "AssistireMeTests" */;
+			buildPhases = (
+				EA75CD79189195260028ED1B /* Sources */,
+				EA75CD7A189195260028ED1B /* Frameworks */,
+				EA75CD7B189195260028ED1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA75CD82189195260028ED1B /* PBXTargetDependency */,
+			);
+			name = AssistireMeTests;
+			productName = AssistireMeTests;
+			productReference = EA75CD7D189195260028ED1B /* AssistireMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA75CD54189195260028ED1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = none;
+				TargetAttributes = {
+					EA75CD7C189195260028ED1B = {
+						TestTargetID = EA75CD5B189195260028ED1B;
+					};
+				};
+			};
+			buildConfigurationList = EA75CD57189195260028ED1B /* Build configuration list for PBXProject "AssistireMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA75CD53189195260028ED1B;
+			productRefGroup = EA75CD5D189195260028ED1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA75CD5B189195260028ED1B /* AssistireMe */,
+				EA75CD7C189195260028ED1B /* AssistireMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA75CD5A189195260028ED1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA75CD6A189195260028ED1B /* InfoPlist.strings in Resources */,
+				EA75CD78189195260028ED1B /* Images.xcassets in Resources */,
+				EA75CD70189195260028ED1B /* Credits.rtf in Resources */,
+				EA75CD76189195260028ED1B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA75CD7B189195260028ED1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA75CD88189195260028ED1B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA75CD58189195260028ED1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA75CD73189195260028ED1B /* AppDelegate.m in Sources */,
+				EA75CD6C189195260028ED1B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA75CD79189195260028ED1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA75CD8A189195260028ED1B /* AssistireMeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA75CD82189195260028ED1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA75CD5B189195260028ED1B /* AssistireMe */;
+			targetProxy = EA75CD81189195260028ED1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA75CD68189195260028ED1B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA75CD69189195260028ED1B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA75CD6E189195260028ED1B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA75CD6F189195260028ED1B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EA75CD74189195260028ED1B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA75CD75189195260028ED1B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		EA75CD86189195260028ED1B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA75CD87189195260028ED1B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA75CD8B189195260028ED1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EA75CD8C189195260028ED1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EA75CD8E189195260028ED1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AssistireMe/AssistireMe-Prefix.pch";
+				INFOPLIST_FILE = "AssistireMe/AssistireMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA75CD8F189195260028ED1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AssistireMe/AssistireMe-Prefix.pch";
+				INFOPLIST_FILE = "AssistireMe/AssistireMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA75CD91189195260028ED1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AssistireMe.app/Contents/MacOS/AssistireMe";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AssistireMe/AssistireMe-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AssistireMeTests/AssistireMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EA75CD92189195260028ED1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AssistireMe.app/Contents/MacOS/AssistireMe";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AssistireMe/AssistireMe-Prefix.pch";
+				INFOPLIST_FILE = "AssistireMeTests/AssistireMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA75CD57189195260028ED1B /* Build configuration list for PBXProject "AssistireMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA75CD8B189195260028ED1B /* Debug */,
+				EA75CD8C189195260028ED1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA75CD8D189195260028ED1B /* Build configuration list for PBXNativeTarget "AssistireMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA75CD8E189195260028ED1B /* Debug */,
+				EA75CD8F189195260028ED1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA75CD90189195260028ED1B /* Build configuration list for PBXNativeTarget "AssistireMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA75CD91189195260028ED1B /* Debug */,
+				EA75CD92189195260028ED1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA75CD54189195260028ED1B /* Project object */;
+}
